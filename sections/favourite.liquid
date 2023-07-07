@@ -1,0 +1,162 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="intro-favorites">
+                <h1 class="text-center mb-5 fw-bold">Our Favorites</h1>
+                <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+                    {% for block in section.blocks %}
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active me-5 fs-5 fw-bold" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="" role="tab" aria-controls="pills-home" aria-selected="true">{{block.settings.our_favorites_heading}}</button>
+                    </li>
+                   {% endfor %}
+                    <hr>
+                </ul>
+                
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="">
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="./assets/img/1.avif" class="card-img-top" alt="...">
+                                    <div class="card-body shadow p-3 mb-5 bg-body rounded">
+                                        <h5 class="card-title fw-bold">Tree Lounger</h5>
+                                        <hr>
+                                        <div class="bottom-details">
+                                            <img src="./assets/img/Tree.png" style="width: 10%;">
+                                            <p class="card-text">
+                                                Breezy Slip-On</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="./assets/img/2.avif" class="card-img-top" alt="...">
+                                    <div class="card-body shadow p-3 mb-5 bg-body rounded">
+                                        <h5 class="card-title fw-bold">All Good Cotton Tee</h5>
+                                        <hr>
+                                        <div class="bottom-details">
+                                            <img src="./assets/img/Tree.png" style="width: 10%;">
+                                            <p class="card-text">Everyday Organic Cotton T-Shirt</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="./assets/img/3.avif" class="card-img-top" alt="...">
+                                    <div class="card-body shadow p-3 mb-5 bg-body rounded">
+                                        <h5 class="card-title fw-bold">Plant Pacer</h5>
+                                        <hr>
+                                        <div class="bottom-details">
+                                            <img src="./assets/img/Tree.png" style="width: 10%;">
+                                            <p class="card-text">Classic Sneaker</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="./assets/img/4.avif" class="card-img-top" alt="...">
+                                <div class="card-body shadow p-3 mb-5 bg-body rounded">
+                                    <h5 class="card-title fw-bold">Tree Dasher 2</h5>
+                                    <hr>
+                                    <div class="bottom-details">
+                                        <img src="./assets/img/Tree.png" style="width: 10%;">
+                                        <p class="card-text">Comfy, Breezy, Everyday Runs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/img/5.avif" class="card-img-top" alt="...">
+                                <div class="card-body shadow p-3 mb-5 bg-body rounded">
+                                    <h5 class="card-title fw-bold">Golf Dasher</h5>
+                                    <hr>
+                                    <div class="bottom-details">
+                                        <img src="./assets/img/Tree.png" style="width: 10%;">
+                                        <p class="card-text">Stabilizing And Comfy For The Green</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/img/6.avif" class="card-img-top" alt="...">
+                                <div class="card-body shadow p-3 mb-5 bg-body rounded">
+                                    <h5 class="card-title fw-bold">Tree Flyer</h5>
+                                    <hr>
+                                    <div class="bottom-details">
+                                        <img src="./assets/img/Tree.png" style="width: 10%;">
+                                        <p class="card-text">Light, Bouncy, Long Distance Runs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="./assets/img/1.avif" class="card-img-top" alt="...">
+                                <div class="card-body shadow p-3 mb-5 bg-body rounded">
+                                    <h5 class="card-title fw-bold">Tree Lounger</h5>
+                                    <hr>
+                                    <div class="bottom-details">
+                                        <img src="./assets/img/Tree.png" style="width: 10%;">
+                                        <p class="card-text">Stabilizing And Comfy For The Green</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/img/2.avif" class="card-img-top" alt="...">
+                                <div class="card-body shadow p-3 mb-5 bg-body rounded">
+                                    <h5 class="card-title fw-bold">All Good Cotton Tee</h5>
+                                    <hr>
+                                    <div class="bottom-details">
+                                        <img src="./assets/img/Tree.png" style="width: 10%;">
+                                        <p class="card-text">Stabilizing And Comfy For The Green</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/img/3.avif" class="card-img-top" alt="...">
+                                <div class="card-body shadow p-3 mb-5 bg-body rounded">
+                                    <h5 class="card-title fw-bold">Plant Pacer</h5>
+                                    <hr>
+                                    <div class="bottom-details">
+                                        <img src="./assets/img/Tree.png" style="width: 10%;">
+                                        <p class="card-text">Stabilizing And Comfy For The Green</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ {% schema %}
+  {
+    "name": "Slide Show",
+    "class": "slide_show",
+    "settings": [],
+    "blocks":[
+        {
+           "type":"Text",
+           "name":"Our Favorites",
+           "settings":[
+              {
+                 "type":"text",
+                 "id":"our_favorites_heading",
+                 "label":"Our Favorites",
+                 "placeholder":"Our Favorites",
+                 "default":"Our Favorites",
+                 "info":"our_favorites_heading"
+              }
+           ]
+        }
+     ]
+   
+  }
+  {% endschema %}
+
